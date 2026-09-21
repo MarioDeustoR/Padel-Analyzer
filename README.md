@@ -1,55 +1,37 @@
 # 🎾 Padel Analyzer PRO - AI Sport Coaching (System Architecture & PRD)
 
-![Status: System Design](https://img.shields.io/badge/Status-System_Design_%26_Architecture-blue)
-![Role: Project Lead](https://img.shields.io/badge/Role-Project_Lead-success)
-![Tech: MediaPipe AI](https://img.shields.io/badge/Tech-Google_MediaPipe-orange)
+> **💡 Repository Note:** This repository outlines the **Product Requirements Document (PRD)** and architecture design for an AI-powered sports analysis application. It details the comprehensive planning of the software lifecycle, UI/UX design, database modeling, and deployment strategy.
 
-> **💡 Nota del repositorio:** Este repositorio contiene el **Product Requirements Document (PRD)** y el diseño de arquitectura completo (83 páginas) para una aplicación de análisis deportivo impulsada por Inteligencia Artificial. No incluye código fuente, sino la planificación integral del ciclo de vida del software, diseño UI/UX, modelado de base de datos y estrategia de despliegue.
-
-## 🚀 Visión del Producto
-**Padel Analyzer PRO** nace con el objetivo de democratizar el entrenamiento deportivo de élite. Utilizando visión por computadora, la aplicación actúa como un "entrenador en el bolsillo", capaz de leer los movimientos del jugador frame a frame, generar esqueletos virtuales, analizar la técnica de golpeo y ofrecer *feedback* biomecánico inmediato y personalizado.
+## 🚀 Product Vision
+**Padel Analyzer PRO** was created with the goal of democratizing elite sports training. Using computer vision, the app acts as a "coach in your pocket," capable of reading the player's movements frame by frame, generating virtual skeletons, analyzing stroke technique, and providing immediate, personalized biomechanical feedback.
 
 ---
 
-## 🧠 Arquitectura Conceptual y Tecnologías Core
+## 🧠 Conceptual Architecture & Core Technologies
 
-Aunque en fase de diseño, la arquitectura del sistema está planteada sobre tecnologías robustas para garantizar escalabilidad (multideporte) y precisión:
+Although in the design phase, the system architecture is built on robust technologies to ensure scalability (multi-sport) and accuracy:
 
-*   **Motor de Inteligencia Artificial:** Integración de **Google MediaPipe** para la estimación de posturas. Mapeo de 33 *keypoints* (puntos clave) para calcular ángulos articulares (codo, torso, muñeca), distancias relativas y tiempos de reacción.
-*   **Diseño de Base de Datos:** Arquitectura relacional para vincular la telemetría del jugador con el contenido educativo (entidades: `Vídeo`, `Nivel`, `Movimiento` e interrelaciones N:M).
-*   **Gestión del Proyecto:** Metodología Agile con diagramas de Gantt planificados y ejecutados íntegramente en **Jira**.
-
----
-
-## 📱 Interfaz y Experiencia de Usuario (UI/UX)
-
-El diseño prioriza la fluidez y la retención del usuario mediante un bucle de *Gamificación y Mejora Continua*:
-
-*(Añade aquí una captura de pantalla del PDF donde se vean los móviles con la interfaz, como la pantalla de "Métricas del partido" o "Análisis de Técnica")*
-`![UI Mockup](ruta-de-tu-imagen1.png)`
-
-*   **Zonas de Impacto y Heatmaps:** Visualización de la actividad en pista y consistencia de golpeo.
-*   **Reproductor Interactivo:** *Feedback* visual superpuesto al vídeo real del jugador indicando errores de postura.
-*   **Smart Library:** Sistema de recomendación que cruza los errores detectados por la IA con vídeos formativos específicos para corregirlos.
+*   **Artificial Intelligence Engine:** Integration of **Google MediaPipe** for pose estimation. Mapping of 33 keypoints to calculate joint angles (elbow, torso, wrist), relative distances, and reaction times.
+*   **Database Design:** Relational architecture to link player telemetry with educational content (entities: `Video`, `Level`, `Movement`, and N:M interrelations).
+*   **Project Management:** Agile methodology with Gantt charts fully planned and executed in **Jira**.
 
 ---
 
-## 🎯 Mi Rol en el Proyecto: Project Lead / Coordinador
+## 📱 User Interface and Experience (UI/UX)
 
-En este proyecto asumí el rol de **Líder y Coordinador** de un equipo de 5 personas. Mis responsabilidades clave incluyeron:
+The design prioritizes fluidity and user retention through a loop of *Gamification and Continuous Improvement*:
 
-1.  **Definición de Producto:** Establecer la visión, las mecánicas de gamificación y los parámetros técnicos que la IA debía medir (tiempos de reacción, ángulos de pala).
-2.  **Gestión del Ciclo de Vida:** Supervisión y control de avance, desde la fase de ideación inicial hasta el despliegue del *Minimum Viable Product* (MVP).
-3.  **Control de Calidad (QA):** Establecimiento de los umbrales de éxito (precisión del modelo IA > 90%).
-4.  **Toma de Decisiones y Mitigación de Riesgos:** Elaboración de planes de contingencia frente a posibles desviaciones de tiempo, falsos positivos de la IA o cuellos de botella en la renderización móvil.
-
-*(Añade aquí una captura de pantalla del Diagrama de Jira o de la Base de Datos del PDF)*
-`![Arquitectura y Gantt](ruta-de-tu-imagen2.png)`
+*   **Impact Zones and Heatmaps:** Visualization of court activity and stroke consistency.
+*   **Interactive Player:** Visual feedback overlaid on the player's actual video pointing out posture errors.
+*   **Smart Library:** Recommendation system that cross-references AI-detected errors with specific instructional videos to correct them.
 
 ---
 
-## 📂 Documentación Completa
+## 🎯 My Role: Project Lead / Coordinator
 
-El documento íntegro incluye diagramas de flujo de usuarios, estudios de mercado, roles del equipo, análisis de *Stakeholders* y la estrategia comercial GTM (Go-To-Market).
+In this project, I took on the role of **Lead and Coordinator** for a 5-person team. My key responsibilities included:
 
-👉 **[Haz clic aquí para leer el Documento de Arquitectura y Diseño Completo (PDF)](Enlace-a-tu-pdf-subido.pdf)**
+1.  **Product Definition:** Establishing the vision, gamification mechanics, and the technical parameters the AI needed to measure (reaction times, racket angles).
+2.  **Lifecycle Management:** Supervision and progress tracking, from the initial ideation phase to the deployment of the *Minimum Viable Product* (MVP).
+3.  **Quality Assurance (QA):** Establishing success thresholds (AI model accuracy > 90%).
+4.  **Decision Making and Risk Mitigation:** Developing contingency plans for potential timeline deviations, AI false positives, or mobile rendering bottlenecks.
